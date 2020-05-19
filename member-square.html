@@ -1,0 +1,324 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <link rel="icon" type="image/png" href="images/favicon.png">
+      <title>Gymobile - 健身，随时随地</title>
+      <!-- Slick Slider -->
+      <link rel="stylesheet" type="text/css" href="vendor/slick/slick.min.css"/>
+      <link rel="stylesheet" type="text/css" href="vendor/slick/slick-theme.min.css"/>
+      <!-- Feather Icon-->
+      <link href="vendor/icons/feather.css" rel="stylesheet" type="text/css">
+      <!-- Bootstrap core CSS -->
+      <link href="http://cdn.bootstrapmb.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+      <!-- Custom styles for this template -->
+      <link href="css/style01.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+	   <link rel="stylesheet" href="css/ionicons.min.css">
+	   <link rel="stylesheet" href="css/fakeLoader.css">
+      <link rel="stylesheet" href="css/swiper.min.css">
+      <link rel="stylesheet" href="css/style-maxui.css">
+   </head>
+   <body>
+   <!-- fakeloader -->
+	<div class="fakeLoader"></div>
+	<!-- end fakeloader -->
+      <!-- navbar -->
+	<div class="navbar">
+		<div class="left">
+			<a href="" class="link link-back"><i class="icon ion-ios-arrow-back"></i></a>
+		</div>
+		<div class="title">
+			发现
+		</div>
+		<div class="right">
+			
+		</div>
+	</div>
+	<!-- end navbar -->
+     
+      <div class="py-4">
+         <div class="container">
+            <div class="row">
+               <!-- Main Content -->
+               <main class="col col-xl-6 order-xl-2 col-lg-12 order-lg-1 col-md-12 col-sm-12 col-12">
+                  <div class="box shadow-sm border rounded bg-white mb-3 osahan-share-post">
+                     <ul class="nav nav-justified border-bottom osahan-line-tab" id="myTab" role="tablist">
+                        <li class="nav-item">
+                           <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true"><i class="feather-edit"></i> 发状态</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false"><i class="feather-image"></i> 拍照打卡</a>
+                        </li>
+                        <li class="nav-item">
+                           <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false"><i class="feather-clipboard"></i> 写文章</a>
+                        </li>
+                     </ul>
+                     <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                           <div class="p-3 d-flex align-items-center w-100" href="#">
+                              <div class="dropdown-list-image mr-3">
+                                 <img class="rounded-circle" src="img/p6.jpg" alt="">
+                                 <div class="status-indicator bg-success"></div>
+                              </div>
+                              <div class="w-100">
+                                 <textarea placeholder="记录你的健身日常吧！" class="form-control border-0 p-0 shadow-none" rows="1"></textarea>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                           <div class="p-3 w-100">
+                              <textarea placeholder="拍照打卡先" class="form-control border-0 p-0 shadow-none" rows="3"></textarea>
+                           </div>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                           <div class="p-3 w-100">
+                              <textarea placeholder="你的健身经验能够帮助更多朋友哦" class="form-control border-0 p-0 shadow-none" rows="3"></textarea>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="border-top p-3 d-flex align-items-center">
+                        <div class="mr-auto"><a href="#" class="text-link small"><i class="feather-map-pin"></i> 添加地点</a></div>
+                        <div class="flex-shrink-1">
+                           
+                           <button type="button" class="btn btn-primary btn-sm">发布状态</button>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box shadow-sm border rounded bg-white mb-3 osahan-post">
+                     <div class="p-3 d-flex align-items-center border-bottom osahan-post-header">
+                        <div class="dropdown-list-image mr-3">
+                           <img class="rounded-circle" src="img/coach01.jpg" alt="">
+                           <div class="status-indicator bg-success"></div>
+                        </div>
+                        <div class="font-weight-bold">
+                           <div class="text-truncate">胡一一</div>
+                           <div class="small text-gray-500">浙大毕业兼职健身教练，能开飞机会潜水的普通浙大人</div>
+                           
+                        </div>
+                        <br>
+                           <button type="button" class="btn btn-primary btn-sm">关注</button>
+                     </div>
+                     <div class="p-3 border-bottom osahan-post-body">
+                        <p class="mb-0">我新开设了1v6线上课程，主打腹部塑形，只需5节小课，不用节食，马甲线不是梦，以往学员评价5/5，好评率爆表，还不快戳 <a href="#">了解详情</a>！</p>
+                     <!-- 跳转至课程详情页面 -->
+                     </div>
+                     <div class="p-3 border-bottom osahan-post-footer">
+                        <a href="#" class="mr-3 text-secondary">3小时前</a>
+                        <a href="#" class="mr-3 text-secondary"><i class="feather-heart text-danger"></i> 16</a>
+                        <a href="#" class="mr-3 text-secondary"><i class="feather-message-square"></i> 8</a>
+                        <a href="#" class="mr-3 text-secondary"><i class="feather-share-2"></i> 2</a>
+                     </div>
+                  </div>
+                     
+                                 
+                           
+                     
+                  <div class="box mb-3 shadow-sm border rounded bg-white osahan-post">
+                     <div class="p-3 d-flex align-items-center border-bottom osahan-post-header">
+                        <div class="dropdown-list-image mr-3">
+                           <img class="rounded-circle" src="img/member01.jpg" alt="">
+                           <div class="status-indicator bg-success"></div>
+                        </div>
+                        <div class="font-weight-bold">
+                           <div class="text-truncate">王可可</div>
+                           <div class="small text-gray-500">身上要有真性情，心中要多些担当。</div>
+                        </div>
+                        <br>
+                           <button type="button" class="btn btn-primary btn-sm">关注</button>
+                     </div>
+                     <div class="p-3 border-bottom osahan-post-body">
+                        <p>今日打卡：因为热爱，所以坚持，爱上跑步，爱上马拉松，再忙也不要忘记锻炼呀！</p>
+                        <img src="img/post1.jpg" class="img-fluid" alt="Responsive image">
+                     </div>
+                     <div class="p-3 border-bottom osahan-post-footer">
+                        <a href="#" class="mr-3 text-secondary">2小时前</a>
+                        <a href="#" class="mr-3 text-secondary"><i class="feather-heart text-danger"></i> 16</a>
+                        <a href="#" class="mr-3 text-secondary"><i class="feather-message-square"></i> 8</a>
+                        <a href="#" class="mr-3 text-secondary"><i class="feather-share-2"></i> 2</a>
+                     </div>
+                     <div class="p-3 d-flex align-items-top border-bottom osahan-post-comment">
+                        <div class="dropdown-list-image mr-3">
+                           <img class="rounded-circle" src="img/p7.png" alt="">
+                           <div class="status-indicator bg-success"></div>
+                        </div>
+                        <div class="font-weight-bold">
+                           <div class="text-truncate"> Lelou Spike（朋友） <span class="float-right small">2 min</span></div>
+                           <div class="small text-gray-500">加油，一起打卡呀~我也希望能够报名一次马拉松，求带哈哈。要不要约个夜跑？</div>
+                        </div>
+                     </div>
+                     <div class="p-3">
+                        <textarea placeholder="Add Comment..." class="form-control border-0 p-0 shadow-none" rows="1"></textarea>
+                     </div>
+                  </div>
+               </main>
+               <aside class="col col-xl-3 order-xl-1 col-lg-6 order-lg-2 col-md-6 col-sm-6 col-12">
+                  <div class="box mb-3 shadow-sm border rounded bg-white profile-box text-center">
+                     <div class="py-4 px-3 border-bottom">
+                        <img src="img/p13.jpg" class="img-fluid mt-2 rounded-circle" alt="Responsive image">
+                        <h5 class="font-weight-bold text-dark mb-1 mt-4">不瘦到100不改名</h5>
+                        <p class="mb-0 text-muted">姐妹们冲呀！！！</p>
+                     </div>
+                     <div class="d-flex">
+                        <div class="col-6 border-right p-3">
+                           <h6 class="font-weight-bold text-dark mb-1">358</h6>
+                           <p class="mb-0 text-black-50 small">关注者</p>
+                        </div>
+                        <div class="col-6 p-3">
+                           <h6 class="font-weight-bold text-dark mb-1">85</h6>
+                           <p class="mb-0 text-black-50 small">互关好友</p>
+                        </div>
+                     </div>
+                     <div class="overflow-hidden border-top">
+                        <a class="font-weight-bold p-3 d-block" href="profile.html"> 查看我的主页 </a>
+                     </div>
+                  </div>
+                  
+                  <div class="box shadow-sm border rounded bg-white mb-3">
+                     <div class="box-title border-bottom p-3">
+                        <h6 class="m-0">你可能认识的打卡小伙伴</h6>
+                     </div>
+                     <div class="box-body p-3">
+                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+                           <div class="dropdown-list-image mr-3">
+                              <img class="rounded-circle" src="img/p7.jpg" alt="">
+                              <div class="status-indicator bg-success"></div>
+                           </div>
+                           <div class="font-weight-bold mr-2">
+                              <div class="text-truncate">Coco</div>
+                              <div class="small text-gray-500">不能继续做小猪啦！
+                              </div>
+                           </div>
+                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+                           </span>
+                        </div>
+                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+                           <div class="dropdown-list-image mr-3">
+                              <img class="rounded-circle" src="img/p8.jpg" alt="">
+                              <div class="status-indicator bg-success"></div>
+                           </div>
+                           <div class="font-weight-bold mr-3">
+                              <div class="text-truncate">Lily</div>
+                              <div class="small text-gray-500">管住嘴，迈开腿
+                              </div>
+                           </div>
+                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+                           </span>
+                        </div>
+                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+                           <div class="dropdown-list-image mr-3">
+                              <img class="rounded-circle" src="img/p10.jpg" alt="">
+                              <div class="status-indicator bg-success"></div>
+                           </div>
+                           <div class="font-weight-bold mr-2">
+                              <div class="text-truncate">小张教练</div>
+                              <div class="small text-gray-500">自律自信，走向成功
+                              </div>
+                           </div>
+                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+                           </span>
+                        </div>
+                        <div class="d-flex align-items-center osahan-post-header mb-3 people-list">
+                           <div class="dropdown-list-image mr-3">
+                              <img class="rounded-circle" src="img/p11.jpg" alt="">
+                              <div class="status-indicator bg-success"></div>
+                           </div>
+                           <div class="font-weight-bold mr-2">
+                              <div class="text-truncate">李七七</div>
+                              <div class="small text-gray-500">早睡早起身体好
+                              </div>
+                           </div>
+                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+                           </span>
+                        </div>
+                        <div class="d-flex align-items-center osahan-post-header people-list">
+                           <div class="dropdown-list-image mr-3">
+                              <img class="rounded-circle" src="img/p12.jpg" alt="">
+                              <div class="status-indicator bg-success"></div>
+                           </div>
+                           <div class="font-weight-bold mr-2">
+                              <div class="text-truncate">Ruby</div>
+                              <div class="small text-gray-500">坚持打卡第27天
+                              </div>
+                           </div>
+                           <span class="ml-auto"><button type="button" class="btn btn-light btn-sm"><i class="feather-user-plus"></i></button>
+                           </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="box shadow-sm mb-3 rounded bg-white ads-box text-center overflow-hidden">
+                     <img src="img/ads1.png" class="img-fluid" alt="Responsive image">
+                     <div class="p-3 border-bottom">
+                        <h6 class="font-weight-bold text-gold">Gymobile会员</h6>
+                        <p class="mb-0 text-muted">线上课程特别优惠，越锻炼，越实惠。<br>还有更多惊喜福利、尊享特权等你解锁。</p>
+                     </div>
+                     <div class="p-3">
+                        <button type="button" class="btn btn-outline-gold pl-4 pr-4"> 立即开通 </button>
+                        <!-- 跳转至会员开通页面 -->
+                     </div>
+                  </div>
+               </aside>
+                     </div>
+                  </div>
+            </div>
+         </div>
+      </div>
+      <!-- Bootstrap core JavaScript -->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <!-- slick Slider JS-->
+      <script type="text/javascript" src="vendor/slick/slick.min.js"></script>
+      <!-- Custom scripts for all pages-->
+      <script src="js/osahan.js"></script>
+      	<!-- toolbar bottom -->
+	<div class="toolbar">
+		<div class="container">
+			<ul class="toolbar-bottom toolbar-wrap" style="height: 83px;">
+				<li class="toolbar-item" style="margin-bottom: 20px;">
+					<a href="member-explore_jingxuan.html" class="toolbar-link">
+						<i class="icon ion-ios-compass"></i>
+						<P>探索</P>
+					</a>
+				</li>
+				<li class="toolbar-item"style="margin-bottom: 20px;">
+					<a href="member-course.html" class="toolbar-link">
+						<i class="icon ion-md-play-circle"></i>
+						<P>上课</P>
+					</a>
+				</li>
+				<li class="toolbar-item"style="margin-bottom: 20px;">
+					<a href="member-square.html" class="toolbar-link toolbar-link-active">
+						<i class="icon ion-md-planet"></i>
+						<P>广场</P>
+					</a>
+				</li>
+				<li class="toolbar-item"style="margin-bottom: 20px;">
+					<a href="member-mypage.html" class="toolbar-link">
+						<i class="icon ion-md-person"></i>
+						<P>我的</P>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+	<style>
+	.toolbar-link.toolbar-link-active {
+    color: #003D8C;
+}
+
+.toolbar-link:hover {
+    color: #003D8C;
+}
+	</style>
+	<!-- end toolbar bottom -->
+   <script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/fakeLoader.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/jquery.big-slide.js"></script>
+	<script src="js/main.js"></script>
+   </body>
+</html>

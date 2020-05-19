@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="icon" href="images/favicon.png">
+	<title>Gymobile - 健身，随时随地</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/ionicons.min.css">
+	<link rel="stylesheet" href="css/fakeLoader.css">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		.container {
+			text-align: center;
+			float: none;
+		}
+
+		.edit_information {
+			display: inline-block;
+		}
+
+		.btn {
+			background-color: #003D8C;
+			color: white;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- fakeloader -->
+	<div class="fakeLoader"></div>
+	<!-- end fakeloader -->
+
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="left">
+			<a href="javascript:history.go(-1);" class="link link-back"><i class="icon ion-ios-arrow-back"></i></a>
+		</div>
+		<div class="title">
+			编辑个人信息
+		</div>
+		<div class="right">
+
+		</div>
+	</div>
+	<!-- end navbar -->
+
+	<!-- pages wrapper -->
+	<div class="pages-wrapper">
+
+		<!-- separator -->
+		<div class="separator-large"></div>
+		<!-- end separator -->
+
+		<!-- about us -->
+		<div class="profile">
+			<div class="container">
+				<div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-12 col-xs-12 edit_information">
+					<form action="" method="POST">
+						<h3 class="text-center">个人信息编辑</h3>
+						<!-- separator -->
+						<div class="separator-large"></div>
+						<!-- end separator -->
+						<div class="row">
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">姓:</label>
+									<input type="text" name="first_name" class="form-control" value="" required>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">名: </label>
+									<input type="text" name="last_name" class="form-control" value="" required>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">电子邮箱地址:</label>
+									<input type="email" name="email" class="form-control" value="" required>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">移动电话:</label>
+									<input type="tel" name="phone" class="form-control" value="" required
+										pattern=[0-9]{11}>
+
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">生日:</label>
+									<input type="date" name="birthday" class="form-control" value="" required>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">性别:</label>
+									<select name="gender" class="form-control" value="" required>
+										<option value="Male">男</option>
+										<option value="Female">女</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">所在城市地区:</label>
+									<input type="text" name="nationality" class="form-control" value="" required>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">擅长授课内容:</label>
+									<select name="gender" class="form-control" value="" required>
+										<option value="Male">瘦肚子</option>
+										<option value="Female">瘦腿</option>
+										<option value="Female">马甲线</option>
+										<option value="Female">蜜桃臀</option>
+										<option value="Female">全身塑性</option>
+										<option value="Female">核心强化</option>
+										<option value="Female">改善驼背/腿型</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<div class="form-group">
+									<label class="profile_details_text">教学经验:</label>
+									<select name="gender" class="form-control" value="" required>
+										<option value="Male">1年</option>
+										<option value="Female">2-5年</option>
+										<option value="Female">5年以上</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<h3 class="text-center">资质证明</h3>
+						<!-- separator -->
+						<div class="separator-large"></div>
+						<!-- end separator -->
+						<div class="row">
+							<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+								<input type="file" name="img[]" class="file">
+								<div class="input-group col-xs-12">
+									<span class="input-group-addon"><i class="glyphicon glyphicon-picture"></i></span>
+								</div>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 submit">
+								<a href="coach-my.html">
+									<div class="form-group">
+										<input type="submit" class="btn" value="Submit">
+									</div>
+								</a>
+
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<!-- separator -->
+		<div class="separator-large"></div>
+		<!-- end separator -->
+		<!-- separator -->
+		<div class="separator-large"></div>
+		<!-- end separator -->
+
+
+		<style>
+			.toolbar-link.toolbar-link-active {
+				color: #003D8C;
+			}
+
+			.toolbar-link:hover {
+				color: #003D8C;
+			}
+		</style>
+		<!-- end toolbar bottom -->
+	</div>
+	<!-- end pages wrapper -->
+	<a href=" " class="link link-back"><i class="icon ion-ios-arrow-back"></i></a>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/fakeLoader.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/main.js"></script>
+
+</body>
+
+</html>

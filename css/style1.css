@@ -721,7 +721,7 @@ textarea {
 }
 
 .ion-logo-dribbble {
-    color: #003D8C !important;
+    color: #ea4c89 !important;
 }
 
 .ion-logo-skype {
@@ -2184,7 +2184,7 @@ margin-bottom: -35px;
     border-radius: 50%;
     flex-shrink: 0;
     margin-right: 15px;
-    border: 2px solid #fe2775;
+    border: 2px solid #003D8C;
 }
 
 .timeline-divider::after {
@@ -2194,7 +2194,7 @@ margin-bottom: -35px;
     left: 50%;
     width: 2px;
     height: 100vh;
-    background: #fe2775;
+    background: #003D8C;
     z-index: -1;
     transform: translateX(-50%);
 }
